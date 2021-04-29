@@ -1,0 +1,14 @@
+1 - Passo
+	Eclipse -> help -> Eclipse marketplace -> cucumber Eclipse Plugin -> install
+
+2 - Passo 
+	Pasta principal do projeto -> botão direito do mouse -> maven -> update project
+
+3 - Passo
+	Pasta principal do projeto -> botão direito do mouse -> configure -> convert to cucumber project
+	
+4 - Passo 
+	Pasta principal do projeto -> Run as -> maven build -> goals -> clean install
+	
+5 - Passo
+	Pasta eclipse-workspace0\cucumber_test\target\masterthought-report\cucumber-html-reports -> feature-overview

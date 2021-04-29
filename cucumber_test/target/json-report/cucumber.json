@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-29T18:19:50.087Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5165832200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Common_Steps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search Items count",
+        "description": "",
+        "id": "ebay-home-page-scenarios;search-items-count",
+        "after": [
+          {
+            "result": {
+              "duration": 2403320400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Common_Steps.setDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10463619900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Eaby Home Page",
+            "match": {
+              "location": "steps.EbayHome_Steps.i_am_on_Eaby_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8952580300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I serach for \u0027playstation 4\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027playstation 4\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.EbayHome_Steps.i_serach_for_iPhone_11(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 316818000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate atleast 50 search items present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.EbayHome_Steps.i_validate_atleast_search_items_presentint(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search_item"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Home Page Scenarios",
+    "description": "",
+    "id": "ebay-home-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:features/EbayHome.feature",
+    "tags": []
+  }
+]
